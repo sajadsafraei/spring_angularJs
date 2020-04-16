@@ -44,12 +44,14 @@
 			<scope>test</scope>
 		</dependency>
 
+
+<!--this dependency used for deploy on tomcat and for run in local comment it-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
-
+<!---->
 	</dependencies>
 
 	<build>
